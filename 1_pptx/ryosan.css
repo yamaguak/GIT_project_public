@@ -1,0 +1,82 @@
+/* @theme ryosan */
+
+@import 'default';
+
+
+section.titlepage header {
+	font-size: 80%;
+	position: absolute;
+	top: 80px;left : 80px; 
+	color:red; 
+	border: 1px solid red; 
+	padding: 0.25rem
+}
+
+section.titlepage footer {
+	font-size: 80%;
+	position: absolute;
+	top: 80px;left : 80px; 
+	color:rgb(253, 251, 251); 
+	padding: 0.25rem
+}
+
+section.titlepage  {
+	width: 1024px;
+	height: 768px;
+	font-size: 80px;
+	text-align: center;
+	justify-content: start;	
+	background-image: url(./image/logo.png), url(./image/title.png);
+	background-repeat:  no-repeat, no-repeat;
+	background-size: 10% auto, 100% auto;
+	padding: 200px;	
+}
+
+section.toc {
+	width: 1024px;
+	height: 768px;
+	font-size: 20px;
+	justify-content: start;	
+	background-image: url(./image/logo2.png);
+	background-position: center bottom 	100px;
+	padding: 10px;	
+}
+
+section {
+	width: 1024px;	
+	height: 768px;
+	font-size: 20px;
+	justify-content: start;	
+	background-image: url(./image/header3.png);
+	background-position: top-left;
+	background-repeat: no-repeat;
+	padding: 10px;	
+
+}
+
+header {
+	width: 100%;
+	color: rgb(250, 243, 245);
+}
+
+footer {
+	width: 100%;
+	background-image: url(./image/footer.png);
+	background-position: right;
+	background-repeat: no-repeat;
+	padding: 20px;
+	font-style: oblique;	
+	color: rgb(247, 251, 252);
+}
+
+h1 {
+	font-size: 30px;
+	color: #09c;
+	text-indent: 10%;
+}
+
+h2 {
+	font-size: 30px;
+	color: rgb(33, 126, 25);
+	text-indent: 10%;
+}

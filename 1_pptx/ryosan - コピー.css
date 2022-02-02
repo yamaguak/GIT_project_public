@@ -1,0 +1,47 @@
+/* @theme ryosan */
+
+@import 'default';
+
+section {
+	width: 1024px;
+	height: 768px;
+	font-size: 20px;
+	padding: 40px;
+	background-image: url(./image/logo.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	justify-content: start;
+}
+
+header {
+	width: 100%;
+	padding: 10px;	
+	background-image: url(./image/header.png);
+}
+
+
+
+
+footer {
+	width: 100%;
+	background-image: url(./image/logo2.png);
+	background-position: relative;
+	background-repeat: no-repeat;
+	padding: 15px;
+	font-style: oblique;	
+}
+
+span.top {
+    position: absolute;
+    top: 0;
+}
+
+h1 {
+	font-size: 60px;
+	color: #09c;
+}
+
+h2 {
+	font-size: 40px;
+	color: rgb(33, 126, 25);
+}
